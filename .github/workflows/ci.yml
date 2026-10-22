@@ -26,4 +26,4 @@ jobs:
           npm install
 
       - name: Run code validation (Linter)
-        run: make lint
+        run: exit 1
